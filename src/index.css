@@ -80,7 +80,7 @@ main {
   display: none !important;
 }
 
-.fade {
+/* .fade {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 1.5s, transform 1s;
@@ -88,7 +88,7 @@ main {
 .fade.active {
   opacity: 1;
   transform: translateY(0px);
-}
+} */
 
 @keyframes slide-in-top {
   0% {
