@@ -1,0 +1,128 @@
+#history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#history .timeline {
+  max-width: 940px;
+  margin: auto;
+  position: relative;
+}
+#history .timeline .timeline-list li.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  margin: 0 10px;
+  padding: 0;
+}
+#history .timeline .more {
+  height: 30vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(transparent, white);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+#history .timeline .more button {
+  width: 120px;
+  background-color: var(--color-10);
+  padding: var(--space-8);
+  border: none;
+  font-size: 16px;
+  border-radius: var(--space-24);
+}
+#history .timeline-list {
+  padding: 40px 0;
+}
+#history .timeline-list-item {
+  display: flex;
+  line-height: 1.5;
+}
+#history .timeline-list-item .date {
+  width: 20%;
+  padding: 0 0 0 20px;
+}
+#history .timeline-list-item .content {
+  position: relative;
+  width: 80%;
+  padding: 0 20px 30px 30px;
+  border-left: 1px solid var(--color-9);
+}
+#history .timeline-list-item .content .title {
+  font-weight: bold;
+  font-size: 16px;
+}
+#history .timeline-list-item .content .location {
+  color: var(--color-8);
+  font-size: 14px;
+}
+#history .timeline-list-item .content .jobDescription {
+  margin-top: 12px;
+}
+#history .timeline-list-item .content::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-6);
+  border-radius: 10px;
+}
+#history .timeline-list-item .contentStudent {
+  position: relative;
+  width: 80%;
+  padding: 0 20px 30px 30px;
+  border-left: 1px solid var(--color-9);
+}
+#history .timeline-list-item .contentStudent .title {
+  font-weight: bold;
+  font-size: 16px;
+}
+#history .timeline-list-item .contentStudent .location {
+  color: var(--color-8);
+  font-size: 14px;
+}
+#history .timeline-list-item .contentStudent .jobDescription {
+  margin-top: 12px;
+}
+#history .timeline-list-item .contentStudent::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-5);
+  border-radius: 10px;
+}
+#history .timeline-list-item .lifeEvent {
+  position: relative;
+  width: 80%;
+  padding: 0 20px 30px 30px;
+  border-left: 1px solid var(--color-9);
+}
+#history .timeline-list-item .lifeEvent .title {
+  font-weight: bold;
+  font-size: 16px;
+}
+#history .timeline-list-item .lifeEvent .location {
+  color: var(--color-8);
+  font-size: 14px;
+}
+#history .timeline-list-item .lifeEvent .jobDescription {
+  margin-top: 12px;
+}
+#history .timeline-list-item .lifeEvent::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-7);
+  border-radius: 10px;
+}

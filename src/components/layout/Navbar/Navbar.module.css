@@ -1,0 +1,13 @@
+.hamburger {
+  display: none;
+}
+.navbar-links {
+  width: 50%;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: auto;
+  position: relative;
+  animation: none;
+}
