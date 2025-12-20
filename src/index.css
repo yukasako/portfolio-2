@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* digital clock font */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+/* Jost */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+/* Outfit */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* Assistant */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+:root {
+  --color-1: #fffefc;
+  --color-2: #b2e4ec;
+  --color-3: #fcdddf;
+  --color-4: #fef3d6;
+  --color-5: #00a5bf;
+  --color-6: #f69096;
+  --color-7: #fdd876;
+  --color-8: #324356;
+  --color-9: #aaaaaa;
+  --color-10: #ededed;
+  --color-11: black;
+  --space-0: 0px;
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-48: 48px;
+  --space-72: 72px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--color-11);
+  text-decoration: none;
+  font-family: Outfit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
