@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "about": "About",
+    "abilities": "Abilities",
+    "projects": "Projects",
+    "history": "History",
+    "cv": "CV"
+  },
+  "introduction": {
+    "h2": "",
+    "p": "日本語用自己紹介。"
+  },
+  "history": {
+    "stockholm": "スウェーデン・ストックホルム",
+    "tokyo": "日本・東京",
+
+    "triggerbee": {
+      "title": "フロントエンド開発インターン",
+      "company": "Triggerbee",
+      "description": "ストックホルムのSaaS企業Triggerbeeにて、6か月間フロントエンド開発のインターンとして勤務。Angular、TypeScript、SCSS、Storybook、Azure DevOpsなどを使用し、フロントエンド開発に従事しました。"
+    },
+
+    "nackademin": {
+      "title": "フロントエンド開発専攻",
+      "company": "Nackademin",
+      "description": "JavaScript、TypeScript、 HTML、CSS（SASS）、React、アクセシビリティ、Git、アジャイル開発、Figma、CMSなどを中心にフロントエンド開発を学びました。"
+    },
+
+    "triwa": {
+      "title": "ECマーケター（日本市場担当）",
+      "company": "Triwa",
+      "description": "日本市場向けのマーケティングおよびEC運営を担当。インフルエンサーマーケティング、SNS運用、ECサイト更新、コンテンツのローカライズ、広告のコピーライティング、ニュースレターの運用、在庫管理、カスタマーサポートなどを行いました。"
+    },
+
+    "stockholmUniversity": {
+      "title": "学生",
+      "company": "ストックホルム大学",
+      "description": "Svenska som främmande språk"
+    },
+
+    "stadshusrestauranger": {
+      "title": "バンケットサーバー",
+      "company": "Stadshusrestauranger",
+      "description": "2018年・2019年・2022年のノーベル晩餐会でサーバーを行いました。"
+    },
+
+    "kwe": {
+      "title": "貿易事務",
+      "company": "近鉄ワールドエクスプレス",
+      "description": "航空輸出専門貿易事務"
+    },
+
+    "uniqlo": {
+      "title": "店長代理",
+      "company": "ユニクロ",
+      "description": "店長候補者プログラム（UMC）の後、東京の店舗にて店長代理として勤務。"
+    },
+
+    "rikkyo": {
+      "title": "学生",
+      "company": "立教大学",
+      "description": "現代心理学専攻、文学士。"
+    },
+
+    "moveToStockholm": "ストックホルムへ移住",
+    "bornInTokyo": "東京生まれ"
+  },
+  "projects": {
+    "project-1": {
+      "title": "Projects"
+    }
+  }
+}

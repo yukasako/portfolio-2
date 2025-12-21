@@ -1,90 +1,85 @@
 export type HistoryItem = {
   date: string;
   type: 'work' | 'student' | 'life';
-  title: string;
-  company?: string;
-  location?: string;
-  description?: string;
+  titleKey: string;
+  companyKey?: string;
+  locationKey?: string;
+  descriptionKey?: string;
 };
 
 export const historyData: HistoryItem[] = [
   {
     date: '2024 - 2025',
     type: 'work',
-    title: 'Frontend Developer',
-    company: 'Triggerbee',
-    location: 'Stockholm, Sweden',
-    description:
-      'Triggerbee is a SaaS platform that provides web customer engagement and on-site marketing solutions. I joined them as a front-end developer intern for six months, contributing to UI/UX development. Angular, TypeScript, Scss, Git, Figma, Agile, AzureDevOps, Storybook.',
+    titleKey: 'history.triggerbee.title',
+    companyKey: 'history.triggerbee.company',
+    locationKey: 'history.stockholm',
+    descriptionKey: 'history.triggerbee.description',
   },
   {
     date: '2023 - 2025',
     type: 'student',
-    title: 'Frontend Development Student',
-    company: 'Nackademin',
-    location: 'Stockholm, Sweden',
-    description:
-      'JavaScript, HTML, CSS(SASS), Git, Accessibility, Figma, Agile, CMS.',
+    titleKey: 'history.nackademin.title',
+    companyKey: 'history.nackademin.company',
+    locationKey: 'history.stockholm',
+    descriptionKey: 'history.nackademin.description',
   },
   {
     date: '2020 - 2022',
     type: 'work',
-    title: 'Marketing Associate / Japanese Market',
-    company: 'Triwa',
-    location: 'Stockholm, Sweden',
-    description:
-      'Marketing for the Japanese market. Influencer marketing, social media communication, copy writing for digital ads and newsletter communication for subscribers. Content localization, product translation and updating e-commerce website. Inventory control and customer service in Japanese.',
+    titleKey: 'history.triwa.title',
+    companyKey: 'history.triwa.company',
+    locationKey: 'history.stockholm',
+    descriptionKey: 'history.triwa.description',
   },
   {
     date: '2018 - 2019',
     type: 'student',
-    title: 'Student',
-    company: 'Stockholm University',
-    location: 'Stockholm, Sweden',
-    description: 'Svenska som främmande språk',
+    titleKey: 'history.stockholmUniversity.title',
+    companyKey: 'history.stockholmUniversity.company',
+    locationKey: 'history.stockholm',
+    descriptionKey: 'history.stockholmUniversity.description',
   },
   {
     date: '2017',
     type: 'work',
-    title: 'Banquet Server',
-    company: 'Stadshusrestauranger',
-    location: 'Stockholm, Sweden',
-    description: 'Serving the Nobel banquet 2018, 2019 and 2022.',
+    titleKey: 'history.stadshusrestauranger.title',
+    companyKey: 'history.stadshusrestauranger.company',
+    locationKey: 'history.stockholm',
+    descriptionKey: 'history.stadshusrestauranger.description',
   },
   {
     date: '2016',
     type: 'life',
-    title: 'Move to Stockholm',
+    titleKey: 'history.moveToStockholm',
   },
   {
     date: '2015 - 2016',
     type: 'work',
-    title: 'Export Clerk',
-    company: 'Kintetsu World Express',
-    location: 'Stockholm, Sweden',
-    description:
-      'Receiving shipping orders from clients and arrange the shipments.',
+    titleKey: 'history.kwe.title',
+    companyKey: 'history.kwe.company',
+    locationKey: 'history.tokyo',
+    descriptionKey: 'history.kwe.description',
   },
   {
     date: '2013 - 2015',
     type: 'work',
-    title: 'Assistant Store Manager',
-    company: 'UNIQLO',
-    location: 'Tokyo, Japan',
-    description:
-      'Managing UNIQLO apparel stores in Tokyo after the 6 month UMC (Uniqlo Management Candidate) program.',
+    titleKey: 'history.uniqlo.title',
+    companyKey: 'history.uniqlo.company',
+    locationKey: 'history.tokyo',
+    descriptionKey: 'history.uniqlo.description',
   },
   {
     date: '2008 - 2013',
     type: 'student',
-    title: 'Student',
-    company: 'Rikkyo University',
-    location: 'Tokyo, Japan',
-    description: 'Bachelor of Arts - BA, Contemporary Psychology',
+    titleKey: 'history.rikkyo.title',
+    companyKey: 'history.rikkyo.company',
+    locationKey: 'history.tokyo',
+    descriptionKey: 'history.rikkyo.description',
   },
   {
     date: '1989',
     type: 'life',
-    title: 'Born in Tokyo',
+    titleKey: 'history.bornInTokyo',
   },
 ];

@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "skills": {
+    "labelHTML": "HTML/CSS"
+  }
+}

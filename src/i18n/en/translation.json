@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "about": "About",
+    "abilities": "Abilities",
+    "projects": "Projects",
+    "history": "History",
+    "cv": "CV"
+  },
+  "introduction": {
+    "h2": "Hi I'm Yuka. \n A Junior Frontend Developer",
+    "p": "Junior front-end developer, recently graduated from Nackademin, a higher vocational education institution in Sweden. While studying, I worked as a front-end developer intern at Triggerbee, contributing to UI/UX development and user-facing features. \n \n Previous experience in web marketing, international logistics, customer service and store management. Originally from Tokyo and moved to Stockholm in 2016. After completing all the Swedish courses, I worked in E-commerce marketing for the Japanese market. \n \n I also created an Instagram comic project about life in Sweden, @yukainsweden, which reached around 20,000 followers at its peak. Frontend development and comic creation are very similar to me. Both involve visualising ideas by considering the perspectives of users or readers. Both require concentration, persistence and patience, and it brings great joy of creating. Skaparglädje is my key word, and I aspire to make such work my livelihood."
+  },
+  "history": {
+    "stockholm": "Stockholm, Sweden",
+    "tokyo": "Tokyo, Japan",
+
+    "triggerbee": {
+      "title": "Frontend Developer",
+      "company": "Triggerbee",
+      "description": "Triggerbee is a SaaS platform providing web customer engagement and on-site marketing solutions. I joined as a front-end developer intern for six months, contributing to UI/UX development using Angular, TypeScript, SCSS, Storybook and Azure DevOps."
+    },
+
+    "nackademin": {
+      "title": "Frontend Development Student",
+      "company": "Nackademin",
+      "description": "Studies focused on frontend development including JavaScript, HTML, CSS (SASS), accessibility, Git, Agile methods, Figma and CMS."
+    },
+
+    "triwa": {
+      "title": "Marketing Associate / Japanese Market",
+      "company": "Triwa",
+      "description": "Responsible for marketing activities for the Japanese market including influencer marketing, social media communication, copywriting, content localization, e-commerce updates, inventory control and customer service."
+    },
+
+    "stockholmUniversity": {
+      "title": "Student",
+      "company": "Stockholm University",
+      "description": "Swedish as a foreign language."
+    },
+
+    "stadshusrestauranger": {
+      "title": "Banquet Server",
+      "company": "Stadshusrestauranger",
+      "description": "Worked as a banquet server, including serving at the Nobel Banquet in 2018, 2019 and 2022."
+    },
+
+    "kwe": {
+      "title": "Export Clerk",
+      "company": "Kintetsu World Express",
+      "description": "Handled export logistics by receiving shipping orders from clients and coordinating international shipments."
+    },
+
+    "uniqlo": {
+      "title": "Assistant Store Manager",
+      "company": "UNIQLO",
+      "description": "Managed UNIQLO apparel stores in Tokyo after completing the Uniqlo Management Candidate (UMC) program."
+    },
+
+    "rikkyo": {
+      "title": "Student",
+      "company": "Rikkyo University",
+      "description": "Bachelor of Arts (BA) in Contemporary Psychology."
+    },
+
+    "moveToStockholm": "Moved to Stockholm",
+    "bornInTokyo": "Born in Tokyo"
+  },
+
+  "projects": {
+    "project-1": {
+      "title": "Projects"
+    }
+  }
+}
