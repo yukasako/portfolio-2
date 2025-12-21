@@ -1,13 +1,68 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .hamburger {
+  margin-top: var(--space-8);
+  font-size: 32px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
+.navbarLinks {
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  animation: slide-in-top 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.navbarLinks a:hover {
+  text-decoration: underline;
+}
+
+.displayNone {
   display: none;
 }
-.navbar-links {
-  width: 50%;
-  display: flex !important;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
-  height: auto;
-  position: relative;
-  animation: none;
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .navbarLinks {
+    width: 50%;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: auto;
+    position: relative;
+    animation: none;
+  }
+
+  .displayNone {
+    display: flex;
+  }
 }
