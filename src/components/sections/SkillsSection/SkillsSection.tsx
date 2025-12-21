@@ -1,47 +1,53 @@
+import { SkillDoughnut } from '../../UI/SkillChart';
+import styles from './SkillsSection.module.css';
+
 export default function SkillsSection() {
+  const skillGroups = [
+    {
+      color: ['rgb(0, 165, 191)', 'rgb(178, 228, 236)'],
+      skills: [
+        { label: 'HTML/CSS', percentage: 85 },
+        { label: 'JavaScript', percentage: 70 },
+        { label: 'TypeScript', percentage: 60 },
+      ],
+    },
+    {
+      color: ['rgb(246, 144, 150)', 'rgb(252, 221, 223)'],
+      skills: [
+        { label: 'React', percentage: 70 },
+        { label: 'Angular', percentage: 70 },
+        { label: 'Figma', percentage: 85 },
+      ],
+    },
+    {
+      color: ['#fdd876', '#fef3d6'],
+      skills: [
+        { label: 'Japanese', percentage: 100 },
+        { label: 'English', percentage: 75 },
+        { label: 'Swedish', percentage: 60 },
+      ],
+    },
+  ];
+
   return (
-    <>
-      <article id='skills'>
-        <h3 className='contentName'>Abilities</h3>
+    <article id='skills'>
+      <h3 className='contentName'>Abilities</h3>
 
-        <div id='allCharts'>
-          <div className='charts fade'>
-            <div className='chart'>
-              <canvas id='HTML'></canvas>
-            </div>
-            <div className='chart'>
-              <canvas id='JavaScript'></canvas>
-            </div>
-            <div className='chart'>
-              <canvas id='TypeScript'></canvas>
-            </div>
+      <div className={styles.allCharts}>
+        {skillGroups.map((group, groupIndex) => (
+          <div className={styles.charts} key={groupIndex}>
+            {group.skills.map((skill) => (
+              <div className={styles.chart} key={skill.label}>
+                <SkillDoughnut
+                  label={skill.label}
+                  percentage={skill.percentage}
+                  color={group.color}
+                />
+              </div>
+            ))}
           </div>
-
-          <div className='charts fade'>
-            <div className='chart'>
-              <canvas id='React'></canvas>
-            </div>
-            <div className='chart'>
-              <canvas id='Angular'></canvas>
-            </div>
-            <div className='chart'>
-              <canvas id='Figma'></canvas>
-            </div>
-          </div>
-
-          <div className='charts fade'>
-            <div className='chart'>
-              <canvas id='Japanese'></canvas>
-            </div>
-            <div className='chart'>
-              <canvas id='English'></canvas>
-            </div>
-            <div className='chart'>
-              <canvas id='Swedish'></canvas>
-            </div>
-          </div>
-        </div>
-      </article>
-    </>
+        ))}
+      </div>
+    </article>
   );
 }
