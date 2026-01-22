@@ -2,8 +2,11 @@ import { useState } from 'react';
 import style from './HistorySection.module.css';
 import { historyData } from '../../../data/history';
 import { FadeIn } from '../../UI/FadeIn';
+import { useTranslation } from 'react-i18next';
 
 export default function HistorySection() {
+  const { t } = useTranslation();
+
   const INITIAL_SHOW = 2;
   const STEP = 4;
 
@@ -40,12 +43,10 @@ export default function HistorySection() {
                   <div className={style.date}>{item.date}</div>
 
                   <div className={contentClass}>
-                    <p className={style.title}>{item.title}</p>
-                    <div className={style.companyAndLocation}>
-                      <p className={style.company}>{item.company}</p>
-                      <p className={style.location}>{item.location}</p>
-                    </div>
-                    <p className={style.jobDescription}>{item.description}</p>
+                    <p className={style.title}>{t(item.titleKey)}</p>
+                    {item.companyKey && <p>{t(item.companyKey)}</p>}
+                    {item.locationKey && <p>{t(item.locationKey)}</p>}
+                    {item.descriptionKey && <p>{t(item.descriptionKey)}</p>}
                   </div>
                 </li>
               );
