@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBrush } from '@fortawesome/free-solid-svg-icons';
 import { LanguageSelector } from '../../UI/LanguageSelector';
 import styles from './Navbar.module.css';
+import CV from '@/assets/images/material/CV.pdf';
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -27,7 +28,6 @@ function Navbar() {
         <a href='#skills'>Abilities</a>
         <a href='#projects'>Projects</a>
         <a href='#history'>History</a>
-        <a href='./img/material/CV.pdf'>CV</a>
         <LanguageSelector></LanguageSelector>
       </div>
     </nav>
